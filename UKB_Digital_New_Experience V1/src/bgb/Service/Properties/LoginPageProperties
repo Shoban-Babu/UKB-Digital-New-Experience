@@ -1,0 +1,6 @@
+Login.Username = .//*[@name='email']
+Login.password = .//*[@name='password']
+Login.LoginButton = .//*[@class='text-center']//*[@type='submit']
+Login.usernameerror = .//*[@id="email"]/following::span[1]
+Login.passworderror = .//*[@id="password"]/following::span[1]/span
+Login.dummyclick = h1
